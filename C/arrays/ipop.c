@@ -10,6 +10,7 @@ int main()
     for(int i=0; i<size; i++){
         scanf("%d", &arr[i]);
     }
+    //using selection sort
     printf("Elements of array in ascending order:");
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){

@@ -1,3 +1,4 @@
+//session1
 //maximum of 2 and 3 numbers
 //calculator using switch
 //calculator using fxn
@@ -95,6 +96,7 @@
 // }
 
 
+
 //calc using fxn
 // #include<stdio.h>
 // int add(int num1,int num2){
@@ -155,56 +157,19 @@
 // }
 
 
-
-//print hello n times using for loop 
-//same program using do while loop
-//same using while loop
-//prime numbers
-//print odd numbers till n
-//addition of n numbers where n is taken from user also find avg and median
-//check for palindrome
-
-
+//prime number
 #include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    int n1 = n;
-    //using for loop
-    printf("\nFor loop");
-    for(int i=0;i<n;i++){
-        printf("\nHello");
+    int num,flag=0;
+    printf("Enter any number: ");
+    scanf("%d",&num);
+    for(int i=2;i<num;i++){
+        if(num%i==0){
+            printf("Not prime");
+            return 0;
+        }
     }
-
-    //using while loop
-    int i=1;
-    printf("\nWhile loop");
-    while(n>0){
-        printf("\nHello");
-        n--;
-    }
-
-    //dowhile loop
-    printf("\nDo While loop");
-    do
-    {
-        printf("\nHello");
-        n1--;
-    } while (n1>0);  
+    printf("Prime");
     return 0;
 }
-
-
-//qualifier
-//qualified students 
-//martial
-//interview
-//internship
-//no stipend
-
-//result 5th june
-//martial orientation/kickoff 7th june
-//5 weeks martial program
-
-//after martial assessment technical interview, hr interview and then internship
