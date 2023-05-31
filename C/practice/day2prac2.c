@@ -57,26 +57,41 @@
 
 
 //palindrome
+// #include<stdio.h>
+// int main()
+// {
+//     int num;
+//     printf("Enter the number: ");
+//     scanf("%d",&num);
+//     int num1 = num;
+//     int rev=0,rem;
+//     while(num!=0){
+//         rem = num%10;
+//         rev = rev*10+rem;
+//         num = num/10;
+//     }
+//     printf("%d",rev);
+
+//     if(num1==rev){
+//         printf("\npalindrome");
+//     }
+//     else
+//         printf("\nnot palindrome");
+//     return 0;
+// }
+
+
+//add n numbers
 #include<stdio.h>
 int main()
 {
-    int num;
     printf("Enter the number: ");
+    int num,sum=0;
     scanf("%d",&num);
-    int num1 = num;
-    int rev=0,rem;
-    while(num!=0){
-        rem = num%10;
-        rev = rev*10+rem;
-        num = num/10;
+    for(int i=1; i<=num; i++){
+        sum+=i;
     }
-    printf("%d",rev);
-
-    if(num1==rev){
-        printf("\npalindrome");
-    }
-    else
-        printf("\nnot palindrome");
+    printf("\nThe sum is %d", sum);
+    printf("\nAverage is %d",sum/num);
     return 0;
 }
-
