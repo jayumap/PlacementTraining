@@ -1,0 +1,7 @@
+polymorphism means one or more forms
+
+2 types
+run time (early binding)
+compile time (static binding)
+    function overriding
+    function overloading: same fxn name is more than one times but with different parameters

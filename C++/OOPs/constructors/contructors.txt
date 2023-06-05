@@ -1,0 +1,42 @@
+constructors
+name should be same as class name
+cannot initialize variable ysing virtual keyword
+inheritance not applicable
+cannot return value 
+used to allocate memory space to program
+
+3 types
+default,parameterized,copy,null,assignment
+
+
+newly added 'private'
+
+mostly default and parameterized are used.
+attributes shouldn't be pvt in constructors.
+
+default constructor is called whenever class object is created;
+
+copy constructors syntax:
+class A{
+A(){
+    cout<<"default constructor";
+}
+//copy constructor
+A(const A& a){
+    cout<<"copy cons called"
+}
+};
+
+int main(){
+    A obj;//def cons called
+    A a1 = obj; copy cons;
+    A a2(obj); copy cons copy called;
+}
+
+
+
+destructor 
+deletes the object of constructor and prints the value of destructor
+
+
+

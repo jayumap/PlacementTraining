@@ -61,7 +61,7 @@ int isPrime(int num) {
 }
 
 int main() {
-    int num = 27;
+    int num = 3;
 
     if (isPrime(num))
         printf("%d is a prime number.\n", num);

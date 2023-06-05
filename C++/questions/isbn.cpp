@@ -4,15 +4,17 @@ int main()
 {
     int num,mod1,sum=0,num1;
     cin>>num;
-    num1 = num;
-    for(int i=1;i<=num;i++){
+    
+
+    int last = num%10;
+    last = last*0;
+    for(int i=1;i<num;i++){
         mod1 = num%10;
         sum+=mod1*mod1;
         num/=10;
-        if(i==num){
-            sum=0;
-        }
     }
+    sum = sum+last;
+    
 
     if(sum%11==0){
         cout<<"Legal";
