@@ -1,0 +1,8 @@
+templates:
+object is a template of class
+template is collection of classes (parameterized)
+template<class T>
+template is called as parameterized classes
+
+typename is keyword is template
+template is also a keyword which is used to assign members values to template class

@@ -4,13 +4,21 @@
 
 #include<bits/stdc++.h>
 using namespace std;
+
+void replaceZeroes(string num){
+    int n = num.length();
+    for(int i=0;i<n;i++){
+        if(num[i]=='0'){
+            num[i]='1';
+        }
+    }
+    cout<<num;
+}
+
 int main()
 {
-    int num,mod;
-    cin>>num;
-    for(int i=1;i<=num;i++){
-        mod = num%10;
-        
-    }
+    string num;
+    getline(cin, num);
+    replaceZeroes(num);
     return 0;
 }

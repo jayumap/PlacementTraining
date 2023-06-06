@@ -1,9 +1,13 @@
-constructors
+constructors are special members functions 
 name should be same as class name
 cannot initialize variable ysing virtual keyword
 inheritance not applicable
 cannot return value 
 used to allocate memory space to program
+
+need of cons:
+
+
 
 3 types
 default,parameterized,copy,null,assignment
