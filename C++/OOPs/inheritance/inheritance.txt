@@ -1,0 +1,41 @@
+inheritance 
+need of inheritance: reduce code writing multiple times 
+reduce code redundancy
+
+5 types of inheritance
+single level
+multilevel
+hierarchical
+hybrid
+multiple
+
+single level: 1 base and 1 child class (1 class and 1 student)
+hierarchical: 1 base class and others are derived classes 
+hybrid: combination of single, multiple, hierarchical inheritance
+multilevel: sequential classes 
+multiple: multiple base and 1 derived 
+
+
+access specifiers:
+private 
+public
+protected
+
+syntax:
+class Animal{
+    public:
+    void eat();
+}
+class Dog : Public Animal{
+    void run();
+    cout<<"";
+}
+int main(){
+    Dog d1;
+    d1.eat();
+    d1.run();
+}
+
+
+encapsulation: binding of data in grp 
+abstraction: display necessary details eg. ATM Machine

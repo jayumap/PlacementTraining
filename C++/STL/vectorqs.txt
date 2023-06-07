@@ -1,0 +1,5 @@
+1. Why array indexing begins with 0
+2. difference between runtime, compiletime and syntax error and logical error
+3. wap to display character values by using vector and iterator by taking user input
+4. all vector methods,functions, attributes
+5. create two base class 'A' and 'B' A inherist two subclasses 
