@@ -10,5 +10,11 @@ int main()
     for(p=v.begin();p<v.end();p++){
         cout<<*p;
     }
+    int arr[10];
+    for(int i=0;i<=4;i++){
+        cin>>arr[i];
+    }
+    // show(arr);
+
     return 0;
 }
