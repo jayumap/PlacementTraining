@@ -1,3 +1,4 @@
+package Input;
 public class variables {
     public static void main(String[] args) {
         int a,b,c;

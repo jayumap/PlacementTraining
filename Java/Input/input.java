@@ -20,9 +20,7 @@ public class input {
         BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
         a = obj.read();
         int val = Character.getNumericValue(a); //to convert ASCII value to integer 
-        System.out.println(val);
-
-        
-    }
+        System.out.println(val);    
+    }   
     
 }
