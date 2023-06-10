@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lift",
+            "request": "launch",
+            "mainClass": "Questions.Lift",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "switchCase",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.switchCase",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "marriage",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.marriage",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "ifstmt",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.ifstmt",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "new1",
+            "request": "launch",
+            "mainClass": "Operators.new1",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "Ticket",
+            "request": "launch",
+            "mainClass": "Questions.Ticket",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "Gmt",
+            "request": "launch",
+            "mainClass": "Questions.Gmt",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "Adjacent",
+            "request": "launch",
+            "mainClass": "Questions.Adjacent",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "BreakNum",
+            "request": "launch",
+            "mainClass": "Questions.BreakNum",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
             "name": "op",
             "request": "launch",
             "mainClass": "Operators.op",
