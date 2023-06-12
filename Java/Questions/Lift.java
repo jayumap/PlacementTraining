@@ -52,6 +52,8 @@ public class Lift {
                 liftPos = movedestFloor + 1;
             }
 
+
+            
             // Move from top to bottom
             else if (liftPos > destFloor) {
                 for (int i = liftPos; i > destFloor; i--) {

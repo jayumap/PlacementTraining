@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "transpose",
+            "request": "launch",
+            "mainClass": "Arrays.transpose",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "arrayelem",
+            "request": "launch",
+            "mainClass": "Arrays.arrayelem",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "breakstmt",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.breakstmt",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
             "name": "Lift",
             "request": "launch",
             "mainClass": "Questions.Lift",
