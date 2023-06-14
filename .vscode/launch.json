@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "abs",
+            "request": "launch",
+            "mainClass": "OOPs.abstraction.abs",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "methodoverride",
+            "request": "launch",
+            "mainClass": "OOPs.polymorphism.methodoverride",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "methodoverload",
+            "request": "launch",
+            "mainClass": "OOPs.polymorphism.methodoverload",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "hierarchical",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.hierarchical",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "interfacee",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.interfacee",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "multilevel",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.multilevel",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "single",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.single",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "clsobj",
+            "request": "launch",
+            "mainClass": "Ojects.clsobj",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
             "name": "transpose",
             "request": "launch",
             "mainClass": "Arrays.transpose",

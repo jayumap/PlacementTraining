@@ -2,7 +2,7 @@ package Arrays;
 
 public class transpose {
     public static void main(String[] args) {
-        int arr[][] = {{10,20},{30,40}};
+        int arr[][] = {{10,20,50},{30,40,60}};  
 
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr.length;j++){
@@ -10,7 +10,7 @@ public class transpose {
             }
             System.out.println();
         }
-
+        
         for(int i=0;i<arr.length;i++){
             for(int j=i;j<arr.length;j++){
                 int temp = arr[i][j];
