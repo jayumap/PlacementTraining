@@ -9,7 +9,7 @@ public class abs {
 }
 
 abstract class A{
-    abstract void sum();
+    abstract void sum();    
     abstract void sub();
 }
 

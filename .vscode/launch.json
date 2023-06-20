@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "thiskey",
+            "request": "launch",
+            "mainClass": "Constructors.thiskey",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "copycons",
+            "request": "launch",
+            "mainClass": "Constructors.copycons",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "defaultcons",
+            "request": "launch",
+            "mainClass": "Constructors.defaultcons",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "bank",
+            "request": "launch",
+            "mainClass": "Exceptions.bank",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "trycatch",
+            "request": "launch",
+            "mainClass": "Exceptions.trycatch",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "arrayoutofbound",
+            "request": "launch",
+            "mainClass": "Exceptions.arrayoutofbound",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Threads.Main",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "sync",
+            "request": "launch",
+            "mainClass": "Threads.sync",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "runnableinterface",
+            "request": "launch",
+            "mainClass": "Threads.runnableinterface",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "Threads.basic",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "Chat",
+            "request": "launch",
+            "mainClass": "Questions.Chat",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "MovieTicketBooking",
+            "request": "launch",
+            "mainClass": "Questions.MovieTicketBooking",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
+            "name": "MobPassword",
+            "request": "launch",
+            "mainClass": "Questions.MobPassword",
+            "projectName": "TNP_77517ffd"
+        },
+        {
+            "type": "java",
             "name": "abs",
             "request": "launch",
             "mainClass": "OOPs.abstraction.abs",
